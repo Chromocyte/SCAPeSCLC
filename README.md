@@ -23,7 +23,7 @@ Core datasets used for analysis.
 scripts/
 Analysis scripts.
 
-- 01_bgene_level_cox_models.R  
+- 01_gene_level_cox_models.R  
   Generates patient-level Bayesian posterior pathway estimates.
 
 - 02_bayesian_patient_level_pathways.R  
