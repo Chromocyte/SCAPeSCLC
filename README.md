@@ -1,2 +1,62 @@
 # SCAPeSCLC
-R scripts for preprocessing, pathway scoring, Bayesian modeling, and Cox proportional hazards analyses applied to the GEO-curated SCAPeSCLC dataset, integrating GeoMx Cancer Transcriptome Atlas expression and survival outcomes in ES-SCLC patients treated with chemo-immunotherapy.
+
+SCAPeSCLC is a harmonized analytical framework developed from publicly available datasets GSE261345 and GSE261348. These datasets originate from the CANTABRICO and IMfirst cohorts of patients with extensive-stage small cell lung cancer (ES-SCLC).
+
+This repository contains selected analysis scripts and supporting datasets used to generate Bayesian pathway posterior estimates and perform gene-level and pathway-level survival modeling.
+
+---
+
+## Repository Structure
+
+data/
+Core datasets used for analysis.
+
+- D5_scaled_gene_expression.csv  
+  Patient-level scaled gene expression values.
+
+- D10_ROI_CTA_Zscores.csv  
+  ROI-level CTA pathway enrichment Z-scores.
+
+- D13_patient_BP_posteriors.csv  
+  Patient-level Bayesian posterior pathway scores.
+
+scripts/
+Analysis scripts.
+
+- 01_bgene_level_cox_models.R  
+  Generates patient-level Bayesian posterior pathway estimates.
+
+- 02_bayesian_patient_level_pathways.R  
+  Performs gene-level Cox proportional hazards modeling.
+
+- 03_pathway_posterior_cox_models.R  
+  Performs pathway-level Cox proportional hazards modeling.
+
+---
+
+## Requirements
+
+R version ≥ 4.2 recommended.
+
+Required packages:
+
+- dplyr  
+- survival  
+- broom  
+- purrr  
+- brms  
+- tidyr  
+- stringr  
+
+Install packages in R:
+
+```r
+install.packages(c(
+"dplyr",
+"survival",
+"broom",
+"purrr",
+"brms",
+"tidyr",
+"stringr"
+))
