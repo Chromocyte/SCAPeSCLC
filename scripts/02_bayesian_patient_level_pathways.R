@@ -35,7 +35,7 @@ library(tidyr)
 # User Input Section
 # =========================
 
-file_path <- "D10_ROI_CTA_Zscores.csv.csv"  
+file_path <- "D10_ROI_CTA_Zscores.csv"  
 # Replace with your file name (e.g., ROI_CTA_Zscores.csv)
 
 output_file <- "Patient_Level_Bayesian_Posteriors.csv"
