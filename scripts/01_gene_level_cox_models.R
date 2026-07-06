@@ -48,7 +48,7 @@ library(purrr)
 # User Input Section
 # =========================
 
-file_path <- "D5_scaled_gene_expression.csv.csv"
+file_path <- "D5_scaled_gene_expression.csv"
 
 # =========================
 # Load Data
