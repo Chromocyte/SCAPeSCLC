@@ -58,7 +58,7 @@ library(stringr)
 # User Input Section
 # =========================
 
-file_path <- "D13_patient_BP_posteriors.csv.csv"
+file_path <- "D13_patient_BP_posteriors.csv"
 
 # =========================
 # Load Data
