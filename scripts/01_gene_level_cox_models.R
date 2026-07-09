@@ -13,7 +13,7 @@
 # Adjusted model:
 #   Surv(time, event) ~ gene_expression
 #                        + treatment
-#                        + bone_met
+#                        + bone_metastasis
 #
 # Input Requirements:
 # - CSV file derived from D5 dataset
@@ -84,7 +84,7 @@ run_cox_models <- function(
       time_var,
       event_var,
       "treatment",
-      "bone_met"
+      "bone_metastasis"
     )
     
     formula_text <- paste0(
@@ -94,7 +94,7 @@ run_cox_models <- function(
       event_var,
       ") ~ ",
       gene,
-      " + treatment + bone_met"
+      " + treatment + bone_metastasis"
     )
     
   } else {
