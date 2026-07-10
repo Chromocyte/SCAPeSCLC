@@ -24,14 +24,19 @@ scripts/
 Analysis scripts.
 
 - 01_gene_level_cox_models.R  
-  Generates patient-level Bayesian posterior pathway estimates.
+  Performs gene-level Cox proportional hazards modeling.
+
+- 01_gene_level_cox_ph_assumptions.R  
+  Performs gene-level Cox proportional hazards assumption testing.
 
 - 02_bayesian_patient_level_pathways.R  
-  Performs gene-level Cox proportional hazards modeling.
+  Generates patient-level Bayesian posterior pathway estimates.
 
 - 03_pathway_posterior_cox_models.R  
   Performs pathway-level Cox proportional hazards modeling.
 
+- 03_pathway_posterior_cox_ph_assumptions.R  
+  Performs pathway-level Cox proportional hazards assumption testing.
 ---
 
 ## Requirements
