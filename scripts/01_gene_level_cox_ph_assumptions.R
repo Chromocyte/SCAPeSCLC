@@ -122,7 +122,7 @@ run_ph_models <- function(gene, data, time_var, event_var, adjusted = FALSE){
 
   if(adjusted){
     result <- result %>%
-      filter(!term %in% c("treatment","bone_metastasis"))
+      filter(term == gene)
   }
 
   result <- result %>%
