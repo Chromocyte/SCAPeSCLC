@@ -1,9 +1,9 @@
 # ============================================================================
-# SCAPeSCLC Diagnostic Atlas Generator
+# SCAPeSCLC Diagnostic Atlas Generator (Confounder-adjusted)
 # ============================================================================
 #
 # Description:
-#   Generates multi-page diagnostic dashboards for gene-level Cox proportional
+#   Generates multi-page confounder-adjusted diagnostic dashboards for gene-level Cox proportional
 #   hazards models using standardized gene expression profiles from SCAPeSCLC.
 #   Each dashboard includes:
 #     • Martingale residuals
@@ -16,7 +16,7 @@
 #   D5_scaled_gene_expression.csv
 #
 # Output:
-#   SCAPeSCLC_Diagnostic_Atlas_<endpoint>.pdf
+#   SCAPeSCLC Diagnostic Atlas (Adjusted) - <endpoint>.pdf
 #
 # Endpoints:
 #   OS
