@@ -150,7 +150,7 @@ extract_model_summary <- function(model,
   )
   
   result <- tidy_model %>%
-    dplyr::filter(term == gene)
+    filter(term == gene)
   
   patients <- nrow(data)
   events <- sum(data[[event_var]])
