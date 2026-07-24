@@ -699,7 +699,7 @@ make_atlas <- function(endpoint) {
   )
   
   cairo_pdf(
-    file = paste0("SCAPeSCLC Diagnostic Atlas for Genes - ",
+    file = paste0("SCAPeSCLC Diagnostic Atlas of Genes - ",
                   endpoint,
                   ".pdf"
     ),
