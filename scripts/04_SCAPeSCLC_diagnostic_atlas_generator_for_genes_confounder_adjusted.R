@@ -36,6 +36,7 @@ library(ggplot2)
 library(grid)
 library(patchwork)
 library(survival)
+library(dplyr)
 
 # Read Source Data
 df <- read.csv(file = "D5_scaled_gene_expression.csv",
@@ -699,7 +700,7 @@ make_atlas <- function(endpoint) {
   cat(
     "Endpoint: ", endpoint, "\n",
     "Genes: ", length(gene_cols), "\n",
-    "Output: SCAPeSCLC Diagnostic Atlas (Adjusted)", endpoint,
+    "Output: SCAPeSCLC Diagnostic Atlas (Adjusted) ", endpoint,
     ".pdf\n\n",
     "Please wait...\n\n",
     sep = ""
