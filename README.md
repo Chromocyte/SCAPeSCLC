@@ -10,7 +10,7 @@ The repository accompanies the published SCAPeSCLC dataset and data paper.
 
 ## Associated Resources
 
-- **Zenodo dataset:** https://doi.org/10.5281/zenodo/21523665
+- **Zenodo dataset:** https://doi.org/10.5281/zenodo.21523665
 - **Data paper:**  
   Shirvaliloo, M. *SCAPeSCLC: An Integrated Spatial Transcriptomic and Bayesian Pathway Enrichment Dataset for Survival Modeling in Extensive-Stage Small Cell Lung Cancer.* **Data** **2026**, *11*, 152. https://doi.org/10.3390/data11070152
 
