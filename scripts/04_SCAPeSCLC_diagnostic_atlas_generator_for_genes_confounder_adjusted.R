@@ -1,5 +1,5 @@
 # ============================================================================
-# SCAPeSCLC Diagnostic Atlas Generator (Confounder-adjusted)
+# SCAPeSCLC Diagnostic Atlas Generator for Genes (Confounder-adjusted)
 # ============================================================================
 #
 # Description:
@@ -16,7 +16,7 @@
 #   D5_scaled_gene_expression.csv
 #
 # Output:
-#   SCAPeSCLC Diagnostic Atlas (Adjusted) - <endpoint>.pdf
+#   SCAPeSCLC Diagnostic Atlas of Genes (Adjusted) - <endpoint>.pdf
 #
 # Endpoints:
 #   OS
@@ -700,7 +700,7 @@ make_atlas <- function(endpoint) {
   cat(
     "Endpoint: ", endpoint, "\n",
     "Genes: ", length(gene_cols), "\n",
-    "Output: SCAPeSCLC Diagnostic Atlas (Adjusted) ", endpoint,
+    "Output: SCAPeSCLC Diagnostic Atlas of Genes (Adjusted) - ", endpoint,
     ".pdf\n\n",
     "Please wait...\n\n",
     sep = ""
