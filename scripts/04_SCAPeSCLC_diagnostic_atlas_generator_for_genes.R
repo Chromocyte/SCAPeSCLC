@@ -1,5 +1,5 @@
 # ============================================================================
-# SCAPeSCLC Diagnostic Atlas Generator
+# SCAPeSCLC Diagnostic Atlas Generator for Genes
 # ============================================================================
 #
 # Description:
@@ -16,7 +16,7 @@
 #   D5_scaled_gene_expression.csv
 #
 # Output:
-#   SCAPeSCLC_Diagnostic_Atlas_<endpoint>.pdf
+#   SCAPeSCLC Diagnostic Atlas of Genes - <endpoint>.pdf
 #
 # Endpoints:
 #   OS
@@ -692,7 +692,7 @@ make_atlas <- function(endpoint) {
   cat(
     "Endpoint: ", endpoint, "\n",
     "Genes: ", length(gene_cols), "\n",
-    "Output: SCAPeSCLC Diagnostic Atlas ", endpoint,
+    "Output: SCAPeSCLC Diagnostic Atlas of Genes - ", endpoint,
     ".pdf\n\n",
     "Please wait...\n\n",
     sep = ""
