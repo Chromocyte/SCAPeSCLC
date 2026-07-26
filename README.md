@@ -2,6 +2,8 @@
 
 **SCAPeSCLC** is a harmonized multi-level transcriptomic and clinical resource derived from the publicly available GEO datasets **GSE261345** and **GSE261348**, originating from the CANTABRICO and IMfirst cohorts of patients with extensive-stage small cell lung cancer (ES-SCLC).
 
+![SCAPeSCLC workflow](figures/SCAPeSCLC_pipeline.png)
+
 This repository contains the R scripts and supporting datasets used to generate Bayesian pathway posterior estimates, perform gene- and pathway-level survival analyses, assess Cox proportional hazards model assumptions, and generate comprehensive diagnostic atlases.
 
 The repository accompanies the published SCAPeSCLC dataset and data paper.
