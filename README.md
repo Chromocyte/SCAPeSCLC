@@ -4,9 +4,20 @@
 
 ![SCAPeSCLC workflow](figures/SCAPeSCLC_pipeline.png)
 
-This repository contains the R scripts and supporting datasets used to generate Bayesian pathway posterior estimates, perform gene- and pathway-level survival analyses, assess Cox proportional hazards model assumptions, and generate comprehensive diagnostic atlases.
+This repository contains the R scripts and supporting datasets used to generate Bayesian pathway posterior estimates, perform gene- and pathway-level survival analyses, assess Cox proportional hazards model assumptions, and generate comprehensive diagnostic atlases for both gene expression and biological pathway activity.
 
-The repository accompanies the published SCAPeSCLC dataset and data paper.
+The repository accompanies **SCAPeSCLC v1.3.5**, the published dataset and associated data paper.
+
+---
+
+## Current Release (v1.3.5)
+
+Major additions include:
+
+- Gene-level diagnostic atlases (unadjusted and confounder-adjusted)
+- Biological pathway diagnostic atlases (unadjusted and confounder-adjusted)
+- Proportional hazards assumption testing for all gene and pathway Cox models
+- Bayesian estimation of patient-level Cancer Transcriptome Atlas pathway activities
 
 ---
 
@@ -20,12 +31,15 @@ The repository accompanies the published SCAPeSCLC dataset and data paper.
 
 # Repository Structure
 
-```
+```text
 SCAPeSCLC
 ├── data/
 │   ├── D5_scaled_gene_expression.csv
 │   ├── D10_ROI_CTA_Zscores.csv
 │   └── D13_patient_BP_posteriors.csv
+│
+├── figures/
+│   └── SCAPeSCLC_pipeline.png
 │
 └── scripts/
     ├── 01_gene_level_cox_models.R
@@ -34,7 +48,9 @@ SCAPeSCLC
     ├── 03_pathway_posterior_cox_models.R
     ├── 03_pathway_posterior_cox_ph_assumptions.R
     ├── 04_SCAPeSCLC_diagnostic_atlas_generator_for_genes.R
-    └── 04_SCAPeSCLC_diagnostic_atlas_generator_for_genes_confounder_adjusted.R
+    ├── 04_SCAPeSCLC_diagnostic_atlas_generator_for_genes_confounder_adjusted.R
+    ├── 05_SCAPeSCLC_diagnostic_atlas_generator_for_BPs.R
+    └── 05_SCAPeSCLC_diagnostic_atlas_generator_for_BPs_confounder_adjusted.R
 ```
 
 ---
@@ -55,16 +71,18 @@ The repository implements the following analytical workflow:
 
 1. Bayesian estimation of patient-level pathway activities from ROI-level Cancer Transcriptome Atlas pathway enrichment scores.
 2. Gene-level Cox proportional hazards regression for progression-free, disease-specific, and overall survival.
-3. Pathway-level Cox proportional hazards regression using Bayesian posterior pathway activities.
-4. Assessment of proportional hazards assumptions using Schoenfeld residuals.
-5. Generation of comprehensive diagnostic atlases including:
-   - hazard ratios and confidence intervals,
+3. Pathway-level Cox proportional hazards regression using Bayesian posterior pathway activity estimates.
+4. Assessment of proportional hazards assumptions using Schoenfeld residuals for both gene- and pathway-level Cox regression models.
+5. Generation of comprehensive diagnostic atlases for both genes and biological pathways, including:
+   - model summary statistics,
+   - hazard ratios and 95% confidence intervals,
    - Wald test statistics,
    - proportional hazards test results,
    - Martingale residuals,
    - Schoenfeld residuals,
    - Deviance residuals,
    - DFBETA influence diagnostics.
+6. Generation of both unadjusted and confounder-adjusted diagnostic atlases for all survival endpoints (OS, DSS, and PFS).
 
 ---
 
@@ -94,11 +112,10 @@ install.packages(c(
 
 ## Citation
 
-If you use SCAPeSCLC in your work, please cite both the Zenodo dataset and the accompanying data paper.
+If you use **SCAPeSCLC** in your work, please cite both the Zenodo dataset and the accompanying data paper.
 
 ---
 
 ## License
 
-This project is distributed under the **MIT License**.  Performs pathway-level Cox proportional hazards assumption testing.
----
+This project is distributed under the **MIT License**.
