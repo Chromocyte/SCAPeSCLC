@@ -86,6 +86,33 @@ The repository implements the following analytical workflow:
 
 ---
 
+## Data Provenance and Analytical Workflow
+
+The diagram below summarizes the provenance of the major data products included in SCAPeSCLC and their relationships to the analytical pipelines implemented in this repository.
+
+```mermaid
+flowchart TD
+
+    A["GEO Datasets<br/>GSE261345 & GSE261348"]
+
+    A --> B["Clinical and Transcriptomic Harmonization"]
+
+    B --> C["Patient-Level Gene Expression<br/>(D5_scaled_gene_expression.csv)"]
+    B --> D["ROI-Level CTA Pathway Z-scores<br/>(D10_ROI_CTA_Zscores.csv)"]
+
+    D --> E["Bayesian Pathway Activity Estimation"]
+    E --> F["Patient-Level Bayesian Pathway Posteriors<br/>(D13_patient_BP_posteriors.csv)"]
+
+    C --> G["Gene-Level Cox Proportional Hazards Models"]
+    G --> H["Gene PH Assumption Testing"]
+    H --> I["Gene Diagnostic Atlases"]
+
+    F --> J["Pathway-Level Cox Proportional Hazards Models"]
+    J --> K["Pathway PH Assumption Testing"]
+    K --> L["Biological Pathway Diagnostic Atlases"]
+```
+---
+
 ## Requirements
 
 R **4.2** or later is recommended.
