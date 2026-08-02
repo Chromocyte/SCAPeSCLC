@@ -27,6 +27,8 @@ Major additions include:
 - **Data paper:**  
   Shirvaliloo, M. *SCAPeSCLC: An Integrated Spatial Transcriptomic and Bayesian Pathway Enrichment Dataset for Survival Modeling in Extensive-Stage Small Cell Lung Cancer.* **Data** **2026**, *11*, 152. https://doi.org/10.3390/data11070152
 
+![SCAPeSCLC Summary](figures/SCAPeSCLC_summary.png)
+
 ---
 
 # Repository Structure
