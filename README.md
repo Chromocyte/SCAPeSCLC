@@ -18,6 +18,7 @@ Major additions include:
 - Biological pathway diagnostic atlases (unadjusted and confounder-adjusted)
 - Proportional hazards assumption testing for all gene and pathway Cox models
 - Bayesian estimation of patient-level Cancer Transcriptome Atlas pathway activities
+- Complete SCAPeSCLC dataset provided in CSV and consolidated XLSX formats
 
 ---
 
