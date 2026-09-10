@@ -1,0 +1,113 @@
+﻿Class,Class | Biological Process,Gene Count,Pass
+Adaptive Immunity,B cells,36,TRUE
+Adaptive Immunity,BCR Signaling,82,TRUE
+Adaptive Immunity,Cancer Antigens,15,TRUE
+Adaptive Immunity,MHC Class I Antigen Presentation,63,TRUE
+Adaptive Immunity,MHC Class II Antigen Presentation,21,TRUE
+Adaptive Immunity,T cells,83,TRUE
+Adaptive Immunity,T-cell Checkpoints,26,TRUE
+Adaptive Immunity,TCR Signaling,106,TRUE
+Adaptive Immunity,Th1 Differentiation,22,TRUE
+Adaptive Immunity,Th17 Differentiation,37,TRUE
+Adaptive Immunity,Th2 Differentiation,17,TRUE
+Adaptive Immunity,Th9 Differentiation,10,TRUE
+Adaptive Immunity,Treg Differentiation,12,TRUE
+Cell Function,Apoptosis,119,TRUE
+Cell Function,Autophagy,59,TRUE
+Cell Function,Cell Adhesion & Motility,136,TRUE
+Cell Function,Cell Cycle,165,TRUE
+Cell Function,Cilium Assembly,10,TRUE
+Cell Function,Differentiation,216,TRUE
+Cell Function,DNA Damage Repair,89,TRUE
+Cell Function,EMT,92,TRUE
+Cell Function,Endocytosis,53,TRUE
+Cell Function,Epigenetic Modification,159,TRUE
+Cell Function,Immortality & Stemness,32,TRUE
+Cell Function,Ion Transport,35,TRUE
+Cell Function,Lysosome,13,TRUE
+Cell Function,Oxidative Stress,148,TRUE
+Cell Function,Phagocytosis,99,TRUE
+Cell Function,Proteotoxic Stress,22,TRUE
+Cell Function,RNA Processing,34,TRUE
+Cell Function,Senescence,126,TRUE
+Immune Response,Chemokine Signaling,104,TRUE
+Immune Response,Cytotoxicity,5,TRUE
+Immune Response,IL-1 Signaling,63,TRUE
+Immune Response,IL-17 Signaling,48,TRUE
+Immune Response,IL-2 Signaling,30,TRUE
+Immune Response,IL-6 Signaling,16,TRUE
+Immune Response,Immune Exhaustion,19,TRUE
+Immune Response,Interferon Response Genes,24,TRUE
+Immune Response,Lmyphocyte Trafficking,108,TRUE
+Immune Response,Lymphocyte Regulation,86,TRUE
+Immune Response,NF-kB Signaling,109,TRUE
+Immune Response,Other Interleukin Signaling,159,TRUE
+Immune Response,Prostaglandin Inflammation,3,FALSE
+Immune Response,TNF Signaling,91,TRUE
+Immune Response,Type I Interferon Signaling,44,TRUE
+Immune Response,Type II Interferon Signaling,49,TRUE
+Immune Response,Type III Interferon Signaling,7,TRUE
+Innate Immunity,Complement System,49,TRUE
+Innate Immunity,Dendritic Cells,18,TRUE
+Innate Immunity,DNA Sensing,45,TRUE
+Innate Immunity,Glycan Sensing,63,TRUE
+Innate Immunity,Host Defense Peptides,20,TRUE
+Innate Immunity,Inflammasomes,11,TRUE
+Innate Immunity,Myeloid Inflammation,89,TRUE
+Innate Immunity,Neutrophil Degranulation,119,TRUE
+Innate Immunity,NK Activity,88,TRUE
+Innate Immunity,NLR Signaling,84,TRUE
+Innate Immunity,RAGE Signaling,8,TRUE
+Innate Immunity,RNA Sensing,58,TRUE
+Innate Immunity,TLR Signaling,128,TRUE
+Metabolism,Amino Acid Synthesis & Transport,53,TRUE
+Metabolism,Arginine Metabolism,14,TRUE
+Metabolism,Fatty Acid Oxidation,8,TRUE
+Metabolism,Fatty Acid Synthesis,6,TRUE
+Metabolism,Glutamine Metabolism,26,TRUE
+Metabolism,Glycolysis & Glucose Transport,28,TRUE
+Metabolism,Glycosylation,12,TRUE
+Metabolism,IDH1/2,10,TRUE
+Metabolism,Lipid Metabolism,71,TRUE
+Metabolism,Mitochondrial Metabolism,52,TRUE
+Metabolism,Nucleotide Synthesis,10,TRUE
+Metabolism,Pentose Phosphate,7,TRUE
+Metabolism,Tryptophan & Kynurenine Metabolism,4,FALSE
+Metabolism,Vitamin & Cofactor Metabolism,26,TRUE
+Physiology & Disease,Angiotensin System,5,TRUE
+Physiology & Disease,Circadian Clock,22,TRUE
+Physiology & Disease,Drug Resistance,3,FALSE
+Physiology & Disease,Glioma,58,TRUE
+Physiology & Disease,Leukemia,88,TRUE
+Physiology & Disease,Matrix Remodeling and Metastasis,50,TRUE
+Physiology & Disease,Melanoma,68,TRUE
+Physiology & Disease,Neuroendocrine Function,7,TRUE
+Physiology & Disease,Prostate Cancer,90,TRUE
+Signaling Pathways,AMPK Signaling,40,TRUE
+Signaling Pathways,Androgen Signaling,29,TRUE
+Signaling Pathways,EGFR Signaling,16,TRUE
+Signaling Pathways,ERBB2 Signaling,20,TRUE
+Signaling Pathways,Estrogen Signaling,84,TRUE
+Signaling Pathways,FGFR Signaling,40,TRUE
+Signaling Pathways,FoxO Signaling,77,TRUE
+Signaling Pathways,GPCR Signaling,159,TRUE
+Signaling Pathways,Hedgehog Signaling,44,TRUE
+Signaling Pathways,HIF1 Signaling,66,TRUE
+Signaling Pathways,Insulin Signaling,78,TRUE
+Signaling Pathways,JAK-STAT Signaling,101,TRUE
+Signaling Pathways,MAPK Signaling,250,TRUE
+Signaling Pathways,MET Signaling,34,TRUE
+Signaling Pathways,mTOR Signaling,75,TRUE
+Signaling Pathways,Myc,26,TRUE
+Signaling Pathways,Neuroendocrine Function,1,FALSE
+Signaling Pathways,NO Signaling,9,TRUE
+Signaling Pathways,Notch Signaling,73,TRUE
+Signaling Pathways,p53 Signaling,75,TRUE
+Signaling Pathways,PDGF Signaling,29,TRUE
+Signaling Pathways,PI3K-Akt Signaling,230,TRUE
+Signaling Pathways,PPAR Signaling,12,TRUE
+Signaling Pathways,Purinergic Signaling,3,FALSE
+Signaling Pathways,Retinoic Acid Signaling,4,FALSE
+Signaling Pathways,TGF-beta Signaling,68,TRUE
+Signaling Pathways,VEGF Signaling,66,TRUE
+Signaling Pathways,Wnt Signaling,121,TRUE
